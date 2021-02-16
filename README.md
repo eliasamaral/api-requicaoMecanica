@@ -5,7 +5,7 @@
 A api retorna duas rotas:
  - /list retorna um json uma lista de requisições.
  
- - /about retorna um objeto com informações de contato.
+ - /about retorna um json com informações de contato.
 
 
  Aplicação hospedada no Heroku.
