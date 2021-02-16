@@ -8,27 +8,25 @@ const app = express()
 
 const PORT = process.env.PORT || 8877
 
-app.get('/', (req, res) => {
+app.get('list/', (req, res) => {
     res.json(requisicao)
 })
 
 app.get('/about', (req, res) => {
-    res.json({
-        name: 'Elias Severiano',
-        contato: [{
-            type: 'email',
-            key: 'eliasseverianoamaral@gmail.com',
-
-        },
+    res.json(
         {
-            type: 'git',
-            key: 'https://github.com/eliasamaral'
-        }
-    
-    
-    ]
-
-    })
+            name: 'Elias Severiano',
+            contato: [
+                {
+                    type: 'email',
+                    key: 'eliasseverianoamaral@gmail.com',
+                },
+                {
+                    type: 'git',
+                    key: 'https://github.com/eliasamaral'
+                },
+            ]
+        })
 })
 
 app.listen(PORT, () => {
