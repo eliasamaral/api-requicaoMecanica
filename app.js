@@ -14,7 +14,20 @@ app.get('/', (req, res) => {
 
 app.get('/about', (req, res) => {
     res.json({
-        name: 'elias'
+        name: 'Elias Severiano',
+        contato: [{
+            type: 'email',
+            key: 'eliasseverianoamaral@gmail.com',
+
+        },
+        {
+            type: 'git',
+            key: 'https://github.com/eliasamaral'
+        }
+    
+    
+    ]
+
     })
 })
 
