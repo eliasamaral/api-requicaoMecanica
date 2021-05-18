@@ -1,7 +1,7 @@
 {
-  "name": "api-requicaoMecanica",
+  "name": "api-dadosappbike",
   "version": "1.0.0",
-  "description": "\"# api-requicaoMecanica\"",
+  "description": "\"# API para servir dados à uma aplicação mobile.\"",
   "main": "app.js",
   "type": "module",
   "dependencies": {
@@ -14,13 +14,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eliasamaral/api-requicaoMecanica.git"
+    "url": "git+https://github.com/eliasamaral/api-dadosappBike"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/eliasamaral/api-requicaoMecanica/issues"
+    "url": "https://github.com/eliasamaral/api-dadosappBike/issues"
   },
-  "homepage": "https://github.com/eliasamaral/api-requicaoMecanica#readme"
+  "homepage": "https://github.com/eliasamaral/api-dadosappBike#readme"
 }

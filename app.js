@@ -1,4 +1,4 @@
-import {requisicao} from './data.js'
+import {List} from './data.js'
 
 import { createRequire } from 'module';
 const require = createRequire(import.meta.url);
@@ -9,7 +9,7 @@ const app = express()
 const PORT = process.env.PORT || 8877
 
 app.get('/', (req, res) => {
-    res.json(requisicao)
+    res.json(List)
 })
 
 app.get('/about', (req, res) => {
